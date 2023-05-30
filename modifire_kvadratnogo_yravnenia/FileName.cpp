@@ -29,7 +29,7 @@ quadratic  Reshenie_kvadrat_yravnenia::get()
 	default:
 		if (isdigit(ch))
 		{
-		ungetc(ch);
+		ungetc(ch);    //wtr?
 			double d = 0;
 				std::cin >> d;
 		}
