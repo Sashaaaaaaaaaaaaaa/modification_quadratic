@@ -1,19 +1,19 @@
 #include<iostream>
-class quadratic 
+class Quadratic 
 {
 	char kind;
 	double value = 0;
-	quadratic  (char ch):kind(ch){}
-	quadratic (char ch, double v=0) :kind(ch), value(v) {} 
+	Quadratic  (char ch):kind(ch){}
+	Quadratic (char ch, double v=0) :kind(ch), value(v) {} 
 };
 struct Reshenie_kvadrat_yravnenia
 {
-	quadratic  get();
+	Quadratic  get();
 	double get_discrimenant();
 	double answer_Kvadr_yrav();
 
 };
-quadratic  Reshenie_kvadrat_yravnenia::get()
+Quadratic  Reshenie_kvadrat_yravnenia::get()
 {
 	char ch;
 	std::cin >> ch;
@@ -29,9 +29,19 @@ quadratic  Reshenie_kvadrat_yravnenia::get()
 	default:
 		if (isdigit(ch))
 		{
-		ungetc(ch);    //wtr?
+		ungetc(ch);    //wtf?
 			double d = 0;
 				std::cin >> d;
 		}
 	}
 }
+Quadratic ts;
+ double primary()
+{
+Quadratic
+switch()
+
+}
+
+double Reshenie_kvadrat_yravnenia::get_discrimenant()
+{}
